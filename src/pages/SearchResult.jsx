@@ -1,7 +1,8 @@
-import { Button, Card, Container, Row, Col } from "react-bootstrap";
+import { Card, Container, Row, Col } from "react-bootstrap";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import Button from "../components/Button";
 
 // https://d59b-2001-448a-3052-8013-b916-585d-6bce-d73b.ap.ngrok.io
 
@@ -78,7 +79,7 @@ const SearchResult = () => {
                     <Button
                       type="button"
                       variant="success"
-                      className="d-block"
+                      // className="d-block"
                       style={{ width: "100%" }}
                     >
                       Pilih Mobil

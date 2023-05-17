@@ -1,0 +1,7 @@
+.btn {
+  --bs-btn-border-radius: 0;
+}
+
+.btn-success {
+  --bs-btn-bg: #f70000;
+}
